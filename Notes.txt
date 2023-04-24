@@ -1,1 +1,141 @@
 https://www.youtube.com/watch?v=cr_3evPrzsU&ab_channel=BogdanStashchuk
+
+print(dir(__builtins__))
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BaseExceptionGroup', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EncodingWarning', 'EnvironmentError', 'Exception', 'ExceptionGroup', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'aiter', 'all', 'anext', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+
+
+
+print(2+2)
+print(2023-1987)
+print('Hello Python')
+*******************************************************
+def my_fn(a, b):
+    a= a+1
+    c= a+b
+    return c
+*******************************************************
+name = 'Evgen'
+print(name.upper())
+*******************************************************
+print(dir(__builtins__))
+*******************************************************
+name = input("Enter your name: ")
+age =  input("Enter your age: ")
+cyti = input("Enter your cyti: ")
+print(name.capitalize(), age.zfill(), cyti)
+*******************************************************
+def my_name(name):
+    print(name)
+
+my_name('Evgen')
+*******************************************************
+my_name = 'Evgen'
+print(id(my_name))
+
+my_num = 100
+print(id(my_num))
+
+other_num = my_num
+print(id(other_num))
+
+print(type(my_name))
+print(type(my_num))
+print(type(other_num))
+
+info_msg = """
+You are
+    learning the easiest
+        programming language - 
+            Python!"""
+print(info_msg)
+print(id(info_msg))
+*******************************************************
+my_comment = "This is my short comment"
+print(len(my_comment))
+
+print(my_comment)
+print(my_comment.replace('short', 'long'))
+print(len(my_comment))
+--------------------------
+my_comment = "This is my short comment"
+print(len(my_comment))
+
+print(my_comment.count('h'))
+--------------------------
+my_comment = "This is my short comment"
+
+print(my_comment[-19])
+print(my_comment[2:7])
+print(my_comment[8:])
+print(my_comment[:10])
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
+
+*******************************************************
