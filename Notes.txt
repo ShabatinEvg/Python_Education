@@ -70,13 +70,49 @@ print(my_comment[8:])
 print(my_comment[:10])
 
 *******************************************************
+my_comment = "This is my short comment"
+
+print(my_comment[-19])
+print(my_comment[2:7])
+print(my_comment[8:])
+print(my_comment[:10])
+*******************************************************
+# Конвертация строки в число--------------------
+
+user_input = input("Enter any number: ")
+any_num = int(user_input)
+
+print(any_num)
+print(type(any_num))
+-------------------------------------
+any_num = int(input("Enter any number: "))
+
+print(any_num)
+print(type(any_num))
+*******************************************************
+#Возведение в степень
+base = 5
+power = 3
+
+print(pow(base, power))  # 125
+/////////////////////////////////////////////
+base = 5
+power = 3
+print(pow(base, power))         #125
+print(type(pow(base, power)))   #<class 'int'>
+print(type(base))               #<class 'int'>
+print(type(power))              #<class 'int'>
+------------------------------------
+#Длинные числа
+one_milion = 1_000_000
+
+print(one_milion)
 
 *******************************************************
+average_price = 17.25
 
-*******************************************************
-
-*******************************************************
-
+print(average_price)
+print(type(average_price))
 *******************************************************
 
 *******************************************************
